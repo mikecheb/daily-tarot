@@ -1,6 +1,5 @@
 interface Card {
   name: string;
-  textName: string;
   upright: string;
   reversed: string;
   url: string;
