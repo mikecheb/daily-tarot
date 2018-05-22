@@ -1,0 +1,60 @@
+import { MinorArcana, Suit, Rank } from '../models/minor';
+import { Arcana } from '../models/base-card';
+
+export const Pentacles: MinorArcana[] = [{
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Ace,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Two,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Three,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Four,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Five,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Six,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Seven,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Eight,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Nine,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Ten,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Page,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Knight,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.Queen,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Pentacles,
+  rank: Rank.King,
+}];

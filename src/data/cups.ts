@@ -1,0 +1,60 @@
+import { MinorArcana, Suit, Rank } from '../models/minor';
+import { Arcana } from '../models/base-card';
+
+export const Cups: MinorArcana[] = [{
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Ace,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Two,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Three,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Four,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Five,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Six,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Seven,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Eight,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Nine,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Ten,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Page,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Knight,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.Queen,
+}, {
+  type: Arcana.Minor,
+  suit: Suit.Cups,
+  rank: Rank.King,
+}];
