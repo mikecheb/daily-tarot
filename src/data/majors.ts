@@ -1,92 +1,92 @@
-import { MajorArcana } from '../models/major';
 import { Arcana } from '../models/base-card';
+import { MajorArcana } from '../models/major';
 
 export const Majors: MajorArcana[] = [{
   type: Arcana.Major,
-  name: "The Fool",
+  name: 'The Fool',
   number: 0,
 }, {
   type: Arcana.Major,
-  name: "The Magician",
+  name: 'The Magician',
   number: 1,
 }, {
   type: Arcana.Major,
-  name: "The High Priestess",
+  name: 'The High Priestess',
   number: 2,
 }, {
   type: Arcana.Major,
-  name: "The Empress",
+  name: 'The Empress',
   number: 3,
 }, {
   type: Arcana.Major,
-  name: "The Emperor",
+  name: 'The Emperor',
   number: 4,
 }, {
   type: Arcana.Major,
-  name: "The Hierophant",
+  name: 'The Hierophant',
   number: 5,
 }, {
   type: Arcana.Major,
-  name: "The Lovers",
+  name: 'The Lovers',
   number: 6,
 }, {
   type: Arcana.Major,
-  name: "The Chariot",
+  name: 'The Chariot',
   number: 7,
 }, {
   type: Arcana.Major,
-  name: "Strength",
+  name: 'Strength',
   number: 8,
 }, {
   type: Arcana.Major,
-  name: "The Hermit",
+  name: 'The Hermit',
   number: 9,
 }, {
   type: Arcana.Major,
-  name: "The Wheel of Fortune",
+  name: 'The Wheel of Fortune',
   number: 10,
 }, {
   type: Arcana.Major,
-  name: "Justice",
+  name: 'Justice',
   number: 11,
 }, {
   type: Arcana.Major,
-  name: "The Hanged Man",
+  name: 'The Hanged Man',
   number: 12,
 }, {
   type: Arcana.Major,
-  name: "Death",
+  name: 'Death',
   number: 13,
 }, {
   type: Arcana.Major,
-  name: "Temperance",
+  name: 'Temperance',
   number: 14,
 }, {
   type: Arcana.Major,
-  name: "The Devil",
+  name: 'The Devil',
   number: 15,
 }, {
   type: Arcana.Major,
-  name: "The Tower",
+  name: 'The Tower',
   number: 16,
 }, {
   type: Arcana.Major,
-  name: "The Star",
+  name: 'The Star',
   number: 17,
 }, {
   type: Arcana.Major,
-  name: "The Moon",
+  name: 'The Moon',
   number: 18,
 }, {
   type: Arcana.Major,
-  name: "The Sun",
+  name: 'The Sun',
   number: 19,
 }, {
   type: Arcana.Major,
-  name: "Judgment",
+  name: 'Judgment',
   number: 20,
 }, {
   type: Arcana.Major,
-  name: "The World",
+  name: 'The World',
   number: 21,
 }];

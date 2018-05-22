@@ -1,5 +1,5 @@
-import { Card } from './models/card';
 import { Arcana } from './models/base-card';
+import { Card } from './models/card';
 import { Rank, Suit } from './models/minor';
 
 export function getCardName(card: Card) {

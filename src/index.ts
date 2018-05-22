@@ -8,7 +8,7 @@ const isReversed = Math.floor(Math.random() * 2) === 1;
 
 const titleText = isReversed ? `${getCardName(card)} Reversed` : getCardName(card);
 const feedObject = {
-  uid: date.toLocaleDateString("en-US"),
+  uid: date.toLocaleDateString('en-US'),
   updateDate: date.toISOString(),
   titleText,
   mainText: titleText,

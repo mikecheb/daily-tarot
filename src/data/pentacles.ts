@@ -1,5 +1,5 @@
-import { MinorArcana, Suit, Rank } from '../models/minor';
 import { Arcana } from '../models/base-card';
+import { MinorArcana, Rank, Suit } from '../models/minor';
 
 export const Pentacles: MinorArcana[] = [{
   type: Arcana.Minor,
